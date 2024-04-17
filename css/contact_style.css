@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(https://st4.depositphotos.com/21389766/23112/i/450/depositphotos_231122574-stock-photo-contact-contact-write-email-support.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+}
+
+.home-link {
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.contact_form {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input,
+.textarea {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+}

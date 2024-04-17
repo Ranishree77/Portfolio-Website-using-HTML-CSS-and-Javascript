@@ -1,0 +1,67 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://files.123freevectors.com/wp-content/original/27662-cobalt-blue-wave-background.jpg);
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+div h1 {
+    font-size: 72px;
+    color: black;
+    margin-bottom: auto;
+}
+
+div p {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.social {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.social a {
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+}

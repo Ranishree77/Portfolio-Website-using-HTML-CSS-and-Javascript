@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SQL/MongoDB</title>
+    <link rel="stylesheet" href="css/normalise.css" />
+    <link rel="stylesheet" href="/css/projects/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hotel Management System using SQL/MongoDb</h1>
+      <a href="https://github.com/Ranishree77/DataBase" target="_blank"
+        >GitHub</a
+      >
+    </header>
+    <ul>
+      <li>
+        <strong>Using SQL:</strong>
+        <ul>
+          <li>
+            <strong>Database Design:</strong>
+            <ul>
+              <li>
+                Create tables such as Rooms, Guests, Reservations, Transactions,
+                Employees, etc., each representing a different aspect of the
+                hotel's operations.
+              </li>
+              <li>
+                Define relationships between these tables using primary and
+                foreign keys.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Room Management:</strong>
+            <ul>
+              <li>
+                Track room availability, types, rates, and status (clean,
+                occupied, vacant, etc.).
+              </li>
+              <li>
+                Allow for room reservations, cancellations, and modifications.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Guest Management:</strong>
+            <ul>
+              <li>
+                Maintain guest profiles with details like name, contact
+                information, ID proof, etc.
+              </li>
+              <li>
+                Handle guest check-ins and check-outs, including registration,
+                room assignment, and key issuance.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Billing and Payments:</strong>
+            <ul>
+              <li>
+                Generate invoices for room charges, additional services (like
+                meals, laundry), and taxes.
+              </li>
+              <li>
+                Process payments, manage refunds, and record transactions in the
+                database.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Housekeeping:</strong>
+            <ul>
+              <li>
+                Schedule and track cleaning services for rooms and common areas.
+              </li>
+              <li>
+                Record room maintenance requests and monitor their completion.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Reporting and Analytics:</strong>
+            <ul>
+              <li>
+                Generate reports on occupancy rates, revenue, expenses, and
+                other key performance indicators.
+              </li>
+              <li>
+                Analyze data to identify trends, optimize pricing, and improve
+                guest satisfaction.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Using MongoDB:</strong>
+        <ul>
+          <li>
+            <strong>Schema Design:</strong>
+            <ul>
+              <li>
+                Define collections such as Rooms, Guests, Reservations,
+                Transactions, Employees, etc., each storing documents in a
+                JSON-like format.
+              </li>
+              <li>
+                Embed related information within documents or reference other
+                documents as needed.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Flexible Data Model:</strong>
+            <ul>
+              <li>
+                Take advantage of MongoDB's flexibility to accommodate changes
+                in requirements and accommodate unstructured data.
+              </li>
+              <li>
+                Use features like arrays and nested documents to represent
+                complex relationships.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Scalability:</strong>
+            <ul>
+              <li>
+                MongoDB's horizontal scalability makes it suitable for handling
+                large volumes of data and high concurrency.
+              </li>
+              <li>
+                Sharding can be used to distribute data across multiple servers
+                and ensure performance and reliability.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Indexing and Querying:</strong>
+            <ul>
+              <li>
+                Create indexes on frequently queried fields to improve query
+                performance.
+              </li>
+              <li>
+                Use MongoDB's powerful query language to retrieve, filter, and
+                manipulate data as needed.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Aggregation Framework:</strong>
+            <ul>
+              <li>
+                Leverage MongoDB's aggregation pipeline for complex data
+                processing tasks such as grouping, sorting, and calculating
+                aggregates.
+              </li>
+              <li>
+                Perform analytics and generate reports directly within the
+                database.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>High Availability and Disaster Recovery:</strong>
+            <ul>
+              <li>
+                Set up replica sets to ensure data redundancy and automatic
+                failover in case of node failures.
+              </li>
+              <li>
+                Implement backup and restore procedures to protect against data
+                loss and corruption.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
